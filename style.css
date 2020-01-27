@@ -1,7 +1,3 @@
-*{
-    text-align: center;
-}
-
 
 #instructions{
     text-indent: 30px;
@@ -16,10 +12,22 @@
 }
 #ingredients{
     display: flex;
+    background-image: url("./assets/assets/list-bg.png");
+    background-repeat: no-repeat;
+  
 }
-#lined{
-    justify-content: center;
-}
+
+input{
+    float: left;
+  }
 .strikethrough:checked + .strikeThis {
     text-decoration: line-through;
   }
+#angles{
+    height: 15px;
+    width: 90%;
+    background: repeating-linear-gradient(45deg, gray, white 0.01%, gray 0.02%);
+}
+#strikeThis{
+      justify-content: left;
+}
