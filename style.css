@@ -50,7 +50,7 @@ h3 {
     margin-top: -5px;
     padding-bottom: 5px;
 
-
+}
 #instructions{
     text-indent: 30px;
     width: 80%;
@@ -64,7 +64,7 @@ h3 {
 }
 #ingredients{
     display: flex;
-    background-image: url("./assets/assets/list-bg.png");
+    background-image: url("./assets/lab-assets/list-bg.png");
     background-repeat: no-repeat;
   
 }
