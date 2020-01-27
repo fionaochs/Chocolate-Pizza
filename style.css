@@ -66,15 +66,13 @@ h3 {
 }
 #instructions{
     text-indent: 30px;
-    width: 80%;
     color: gray;
-    text-align: center;
+    text-align: left;
 }
 #posted{
     font-size: 12px;
     color: gray;
     margin-top: -25px;
-    /* margin-bottom: 25px; */
 }
 section{
     display: flex;
@@ -87,9 +85,7 @@ section{
     margin-top: 50px;
 
 }
-/* #printDiv{
-    margin-bottom: -50px;
-} */
+
 #chocolatePizza{
     justify-content: center;
 }
