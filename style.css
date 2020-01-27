@@ -4,7 +4,7 @@
     width: 80%;
 }
 #chocolatePizza{
-    justify-content: left;
+    justify-content: center;
 }
 #pizzaContainer{
     display: flex;
@@ -30,4 +30,16 @@ input{
 }
 #strikeThis{
       justify-content: left;
+}
+#recipeButton{
+    background-color: salmon;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    color: blanchedalmond;
+    float: right;
+    margin: -50px 100px 20px 10px;
+}
+#headShot{
+    display: inline;
 }
