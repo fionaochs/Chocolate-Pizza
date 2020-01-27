@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+}
+
+
+#instructions{
+    text-indent: 30px;
+    width: 80%;
+}
+#chocolatePizza{
+    justify-content: left;
+}
+#pizzaContainer{
+    display: flex;
+    width: 100%;
+}
+#ingredients{
+    display: flex;
+}
+#lined{
+    justify-content: center;
+}
+.strikethrough:checked + .strikeThis {
+    text-decoration: line-through;
+  }
