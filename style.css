@@ -1,14 +1,27 @@
-
+html{
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+}
+body{
+    max-width: 80%;
+}
 header {
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    width: 100%;
+    justify-content: space-between;
+  
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
 }
 
 nav {
-    position: absolute;
-    right: 5px;
+    /* position: absolute;
+    right: 100px; */
+    /* float: right; */
 }
 
 h3 {
@@ -54,7 +67,29 @@ h3 {
 #instructions{
     text-indent: 30px;
     width: 80%;
+    color: gray;
+    text-align: center;
 }
+#posted{
+    font-size: 12px;
+    color: gray;
+    margin-top: -25px;
+    /* margin-bottom: 25px; */
+}
+section{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+#print{
+    font-size: 13px;
+    color: gray;
+    margin-top: 50px;
+
+}
+/* #printDiv{
+    margin-bottom: -50px;
+} */
 #chocolatePizza{
     justify-content: center;
 }
@@ -66,6 +101,7 @@ h3 {
     display: flex;
     background-image: url("./assets/lab-assets/list-bg.png");
     background-repeat: no-repeat;
+    justify-content: space-around;
   
 }
 
@@ -77,22 +113,40 @@ input{
   }
 #angles{
     height: 15px;
-    width: 90%;
-    background: repeating-linear-gradient(45deg, gray, white 0.01%, gray 0.02%);
+    width: 100%;
+    background: repeating-linear-gradient(45deg, gray, white .5%, gray .1%);
 }
 #strikeThis{
       justify-content: left;
 }
+ul{
+    max-width: 50%;
+    color: rgb(151, 104, 15);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
 #recipeButton{
-    background-color: salmon;
+    background-color: rgb(165, 79, 69);
     height: 40px;
     width: 150px;
     font-size: 15px;
     color: blanchedalmond;
     float: right;
-    margin: -50px 100px 20px 10px;
 }
 #headShot{
-    display: inline;
-
+float: left;
+margin-right: 20px;
+}
+footer{
+    display: flex;
+    align-items: center;
+}
+#author{
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+}
+#bio{
+    margin-top: -5px;
+    color: gray;
 }
